@@ -6,7 +6,7 @@ public class Main {
         // Question 1:
         // Check Positive, Negative, or Zero
 
-        int number = -6;
+        int number = -5;
 
         if(number > 0)
         {
@@ -35,6 +35,58 @@ public class Main {
             {
                 System.out.println("Odd");
             }
+
+        // Question 3:
+// Largest of Two Numbers
+
+        int a = 10;
+        int b = 20;
+
+        if(a > b)
+        {
+            System.out.println("A is Largest");
+        }
+        else
+        {
+            System.out.println("B is Largest");
+        }
+
+        // Question 4:
+// Largest of Three Numbers
+
+        int x = 10;
+        int y = 40;
+        int z = 25;
+
+        if(x > y && x > z)
+        {
+            System.out.println("X is Largest");
+        }
+
+        else if(y > x && y > z)
+        {
+            System.out.println("Y is Largest");
+        }
+
+        else
+        {
+            System.out.println("Z is Largest");
+        }
+
+        // Question 5:
+// Divisible by 5 and 11
+
+        int n = 55;
+
+        if(n % 5 == 0 && n % 11 == 0)
+        {
+            System.out.println("Divisible by 5 and 11");
+        }
+
+        else
+        {
+            System.out.println("Not Divisible");
+        }
         }
 
     }
