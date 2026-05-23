@@ -1,6 +1,5 @@
 public class Main {
-    public static void main(String[]args)
-    {
+    public static void main(String[]args) {
         System.out.println("Hello Java\uD83D\uDE80");
 
         // Question 1:
@@ -8,33 +7,24 @@ public class Main {
 
         int number = -5;
 
-        if(number > 0)
-        {
+        if (number > 0) {
             System.out.println("Positive");
-        }
-
-        else if(number < 0)
-        {
+        } else if (number < 0) {
             System.out.println("Negative");
-        }
-
-        else {
+        } else {
             System.out.println("Zero");
         }
 
-            // Question 2:
+        // Question 2:
 // Check Even or Odd
 
-            int num = 5;
+        int num = 5;
 
-            if(num % 2 == 0)
-            {
-                System.out.println("Even");
-            }
-            else
-            {
-                System.out.println("Odd");
-            }
+        if (num % 2 == 0) {
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
 
         // Question 3:
 // Largest of Two Numbers
@@ -42,12 +32,9 @@ public class Main {
         int a = 10;
         int b = 20;
 
-        if(a > b)
-        {
+        if (a > b) {
             System.out.println("A is Largest");
-        }
-        else
-        {
+        } else {
             System.out.println("B is Largest");
         }
 
@@ -58,18 +45,11 @@ public class Main {
         int y = 40;
         int z = 25;
 
-        if(x > y && x > z)
-        {
+        if (x > y && x > z) {
             System.out.println("X is Largest");
-        }
-
-        else if(y > x && y > z)
-        {
+        } else if (y > x && y > z) {
             System.out.println("Y is Largest");
-        }
-
-        else
-        {
+        } else {
             System.out.println("Z is Largest");
         }
 
@@ -78,15 +58,85 @@ public class Main {
 
         int n = 55;
 
-        if(n % 5 == 0 && n % 11 == 0)
-        {
+        if (n % 5 == 0 && n % 11 == 0) {
             System.out.println("Divisible by 5 and 11");
+        } else {
+            System.out.println("Not Divisible");
+        }
+
+        // Question 6:
+        // Check Leap Year
+
+        int year = 2024;
+
+        if(year % 4 == 0)
+        {
+            System.out.println("Leap Year");
+        }
+
+        else
+        {
+            System.out.println("Not Leap Year");
+        }
+
+
+        // Question 7:
+        // Check Alphabet or Not
+
+        char ch = 'A';
+
+        if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+        {
+            System.out.println("Alphabet");
+        }
+
+        else
+        {
+            System.out.println("Not Alphabet");
+        }
+
+
+        // Question 8:
+        // Check Vowel or Consonant
+
+        char letter = 'e';
+
+        if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+        {
+            System.out.println("Vowel");
+        }
+
+        else
+        {
+            System.out.println("Consonant");
+        }
+
+
+        // Question 9:
+        // Check Divisible by 5 or 11
+
+        int n2 = 55;
+
+        if(n2 % 5 == 0 || n2 % 11 == 0)
+        {
+            System.out.println("Divisible");
         }
 
         else
         {
             System.out.println("Not Divisible");
         }
-        }
 
+
+        // Question 10:
+        // Largest of Two Numbers Using Ternary Operator
+
+        int p = 10;
+        int q = 20;
+
+        int max = (p > q) ? p : q;
+
+        System.out.println("Largest = " + max);
     }
+}
+
