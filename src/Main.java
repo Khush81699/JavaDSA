@@ -197,6 +197,91 @@ public class Main {
         else
         {
             System.out.println("Alphabet");
+
+
+
+            // Question 16:
+            // Greater Between Two Numbers Using Ternary Operator
+
+            int m1 = 50;
+            int n1 = 80;
+
+            int greater = (m1 > n1) ? m1 : n1;
+
+            System.out.println("Greater Number = " + greater);
+
+
+
+
+            // Question 17:
+            // Smaller Between Two Numbers
+
+            int p1 = 25;
+            int q1 = 15;
+
+            if(p1 < q1)
+            {
+                System.out.println("P is Smaller");
+            }
+
+            else
+            {
+                System.out.println("Q is Smaller");
+            }
+
+
+
+
+            // Question 18:
+            // Check Whether Number is Positive Even Number
+
+            int num3 = 8;
+
+            if(num3 > 0 && num3 % 2 == 0)
+            {
+                System.out.println("Positive Even Number");
+            }
+
+            else
+            {
+                System.out.println("Not Positive Even");
+            }
+
+
+
+
+            // Question 19:
+            // Check Whether Number is Negative Odd Number
+
+            int num4 = -9;
+
+            if(num4 < 0 && num4 % 2 != 0)
+            {
+                System.out.println("Negative Odd Number");
+            }
+
+            else
+            {
+                System.out.println("Not Negative Odd");
+            }
+
+
+
+
+            // Question 20:
+            // Check Whether Temperature is Hot or Cold
+
+            int temp = 35;
+
+            if(temp >= 30)
+            {
+                System.out.println("Hot");
+            }
+
+            else
+            {
+                System.out.println("Cold");
+            }
         }
     }
 }
