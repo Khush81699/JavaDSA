@@ -128,13 +128,9 @@ public class Main {
 
         char ch1 = 'A';
 
-        if(ch1 >= 'A' && ch1 <= 'Z')
-        {
+        if (ch1 >= 'A' && ch1 <= 'Z') {
             System.out.println("Uppercase");
-        }
-
-        else
-        {
+        } else {
             System.out.println("Lowercase");
         }
 
@@ -143,13 +139,9 @@ public class Main {
 
         int num1 = 456;
 
-        if(num1 >= 100 && num1 <= 999)
-        {
+        if (num1 >= 100 && num1 <= 999) {
             System.out.println("Three Digit Number");
-        }
-
-        else
-        {
+        } else {
             System.out.println("Not Three Digit");
         }
 
@@ -159,13 +151,9 @@ public class Main {
 
         int num2 = 21;
 
-        if(num2 % 7 == 0)
-        {
+        if (num2 % 7 == 0) {
             System.out.println("Multiple of 7");
-        }
-
-        else
-        {
+        } else {
             System.out.println("Not Multiple of 7");
         }
 
@@ -174,13 +162,9 @@ public class Main {
 
         int age = 20;
 
-        if(age >= 18)
-        {
+        if (age >= 18) {
             System.out.println("Eligible for Voting");
-        }
-
-        else
-        {
+        } else {
             System.out.println("Not Eligible");
         }
 
@@ -189,99 +173,189 @@ public class Main {
 
         char ch2 = '5';
 
-        if(ch2 >= '0' && ch2 <= '9')
-        {
+        if (ch2 >= '0' && ch2 <= '9') {
             System.out.println("Digit");
-        }
-
-        else
-        {
+        } else {
             System.out.println("Alphabet");
-
-
-
-            // Question 16:
-            // Greater Between Two Numbers Using Ternary Operator
-
-            int m1 = 50;
-            int n1 = 80;
-
-            int greater = (m1 > n1) ? m1 : n1;
-
-            System.out.println("Greater Number = " + greater);
-
-
-
-
-            // Question 17:
-            // Smaller Between Two Numbers
-
-            int p1 = 25;
-            int q1 = 15;
-
-            if(p1 < q1)
-            {
-                System.out.println("P is Smaller");
-            }
-
-            else
-            {
-                System.out.println("Q is Smaller");
-            }
-
-
-
-
-            // Question 18:
-            // Check Whether Number is Positive Even Number
-
-            int num3 = 8;
-
-            if(num3 > 0 && num3 % 2 == 0)
-            {
-                System.out.println("Positive Even Number");
-            }
-
-            else
-            {
-                System.out.println("Not Positive Even");
-            }
-
-
-
-
-            // Question 19:
-            // Check Whether Number is Negative Odd Number
-
-            int num4 = -9;
-
-            if(num4 < 0 && num4 % 2 != 0)
-            {
-                System.out.println("Negative Odd Number");
-            }
-
-            else
-            {
-                System.out.println("Not Negative Odd");
-            }
-
-
-
-
-            // Question 20:
-            // Check Whether Temperature is Hot or Cold
-
-            int temp = 35;
-
-            if(temp >= 30)
-            {
-                System.out.println("Hot");
-            }
-
-            else
-            {
-                System.out.println("Cold");
-            }
         }
+        // Question 16:
+        // Greater Between Two Numbers Using Ternary Operator
+
+        int m1 = 50;
+        int n1 = 80;
+
+        int greater = (m1 > n1) ? m1 : n1;
+
+        System.out.println("Greater Number = " + greater);
+
+
+        // Question 17:
+        // Smaller Between Two Numbers
+
+        int p1 = 25;
+        int q1 = 15;
+
+        if (p1 < q1) {
+            System.out.println("P is Smaller");
+        } else {
+            System.out.println("Q is Smaller");
+        }
+
+        // Question 18:
+       // Check Whether Number is Positive Even Number
+
+        int num3 = 8;
+
+        if (num3 > 0 && num3 % 2 == 0) {
+            System.out.println("Positive Even Number");
+        } else {
+            System.out.println("Not Positive Even");
+        }
+
+
+        // Question 19:
+       // Check Whether Number is Negative Odd Number
+
+        int num4 = -9;
+
+        if (num4 < 0 && num4 % 2 != 0) {
+            System.out.println("Negative Odd Number");
+        } else {
+            System.out.println("Not Negative Odd");
+        }
+
+
+       // Question 20:
+        // Check Whether Temperature is Hot or Cold
+
+        int temp = 35;
+
+        if (temp >= 30) {
+            System.out.println("Hot");
+        } else {
+            System.out.println("Cold");
+        }
+
+
+       // Question 21:
+      // Check Whether Number is Divisible by 3
+
+        int num5 = 18;
+
+        if (num5 % 3 == 0) {
+            System.out.println("Divisible by 3");
+        } else {
+            System.out.println("Not Divisible by 3");
+        }
+
+
+       // Question 22:
+       // Check Whether Number is Divisible by 9
+
+        int num6 = 27;
+
+        if (num6 % 9 == 0) {
+            System.out.println("Divisible by 9");
+        } else {
+            System.out.println("Not Divisible by 9");
+        }
+
+
+       // Question 23:
+      // Check Positive Odd Number
+
+        int num7 = 11;
+
+        if (num7 > 0 && num7 % 2 != 0) {
+            System.out.println("Positive Odd Number");
+        } else {
+            System.out.println("Not Positive Odd");
+        }
+
+
+       // Question 24:
+      // Check Special Character
+
+        char ch3 = '@';
+
+        if ((ch3 >= 'A' && ch3 <= 'Z') ||
+                (ch3 >= 'a' && ch3 <= 'z') ||
+                (ch3 >= '0' && ch3 <= '9')) {
+            System.out.println("Not Special Character");
+        } else {
+            System.out.println("Special Character");
+        }
+
+
+      // Question 25:
+     // Check Number is Zero
+
+        int num8 = 0;
+
+        if (num8 == 0) {
+            System.out.println("Number is Zero");
+        } else {
+            System.out.println("Number is Not Zero");
+        }
+
+
+      // Question 26:
+        // Check Single Digit Number
+
+        int num9 = 7;
+
+        if (num9 >= 0 && num9 <= 9) {
+            System.out.println("Single Digit Number");
+        } else {
+            System.out.println("Not Single Digit");
+        }
+
+
+      // Question 27:
+     // Check Double Digit Number
+
+        int num10 = 45;
+
+        if (num10 >= 10 && num10 <= 99) {
+            System.out.println("Double Digit Number");
+        } else {
+            System.out.println("Not Double Digit");
+        }
+
+
+        // Question 28:
+       // Pass or Fail
+
+        int marks = 35;
+
+        if (marks >= 35) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
+        }
+
+
+       // Question 29:
+      // Check Greater Than 100
+
+        int num11 = 150;
+
+        if (num11 > 100) {
+            System.out.println("Greater Than 100");
+        } else {
+            System.out.println("Not Greater Than 100");
+        }
+
+
+        // Question 30:
+        // Absolute Value
+
+        int num12 = -15;
+
+        if (num12 < 0) {
+            num12 = -num12;
+        }
+
+        System.out.println("Absolute Value = " + num12);
     }
 }
