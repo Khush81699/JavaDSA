@@ -202,7 +202,7 @@ public class Main {
         }
 
         // Question 18:
-       // Check Whether Number is Positive Even Number
+        // Check Whether Number is Positive Even Number
 
         int num3 = 8;
 
@@ -214,7 +214,7 @@ public class Main {
 
 
         // Question 19:
-       // Check Whether Number is Negative Odd Number
+        // Check Whether Number is Negative Odd Number
 
         int num4 = -9;
 
@@ -225,7 +225,7 @@ public class Main {
         }
 
 
-       // Question 20:
+        // Question 20:
         // Check Whether Temperature is Hot or Cold
 
         int temp = 35;
@@ -237,8 +237,8 @@ public class Main {
         }
 
 
-       // Question 21:
-      // Check Whether Number is Divisible by 3
+        // Question 21:
+        // Check Whether Number is Divisible by 3
 
         int num5 = 18;
 
@@ -249,8 +249,8 @@ public class Main {
         }
 
 
-       // Question 22:
-       // Check Whether Number is Divisible by 9
+        // Question 22:
+        // Check Whether Number is Divisible by 9
 
         int num6 = 27;
 
@@ -261,8 +261,8 @@ public class Main {
         }
 
 
-       // Question 23:
-      // Check Positive Odd Number
+        // Question 23:
+        // Check Positive Odd Number
 
         int num7 = 11;
 
@@ -273,8 +273,8 @@ public class Main {
         }
 
 
-       // Question 24:
-      // Check Special Character
+        // Question 24:
+        // Check Special Character
 
         char ch3 = '@';
 
@@ -287,8 +287,8 @@ public class Main {
         }
 
 
-      // Question 25:
-     // Check Number is Zero
+        // Question 25:
+        // Check Number is Zero
 
         int num8 = 0;
 
@@ -299,7 +299,7 @@ public class Main {
         }
 
 
-      // Question 26:
+        // Question 26:
         // Check Single Digit Number
 
         int num9 = 7;
@@ -311,8 +311,8 @@ public class Main {
         }
 
 
-      // Question 27:
-     // Check Double Digit Number
+        // Question 27:
+        // Check Double Digit Number
 
         int num10 = 45;
 
@@ -324,7 +324,7 @@ public class Main {
 
 
         // Question 28:
-       // Pass or Fail
+        // Pass or Fail
 
         int marks = 35;
 
@@ -335,8 +335,8 @@ public class Main {
         }
 
 
-       // Question 29:
-      // Check Greater Than 100
+        // Question 29:
+        // Check Greater Than 100
 
         int num11 = 150;
 
@@ -357,5 +357,115 @@ public class Main {
         }
 
         System.out.println("Absolute Value = " + num12);
+
+        // Question 31:
+        // Check Whether Number is Less Than 50
+
+        int num13 = 35;
+
+        if (num13 < 50) {
+            System.out.println("Less Than 50");
+        } else {
+            System.out.println("Greater Than or Equal to 50");
+        }
+
+        // Question 32:
+        // Check Whether Number is Between 10 and 20
+
+        int num14 = 15;
+
+        if (num14 >= 10 && num14 <= 20) {
+            System.out.println("Between 10 and 20");
+        } else {
+            System.out.println("Not Between 10 and 20");
+        }
+
+        // Question 33:
+        // Check Whether Character is Lowercase
+
+        char ch4 = 'k';
+
+        if (ch4 >= 'a' && ch4 <= 'z') {
+            System.out.println("Lowercase");
+        } else {
+            System.out.println("Not Lowercase");
+        }
+
+        // Question 34:
+        // Check Whether Number is Multiple of 2 and 3
+
+        int num15 = 12;
+
+        if (num15 % 2 == 0 && num15 % 3 == 0) {
+            System.out.println("Multiple of 2 and 3");
+        } else {
+            System.out.println("Not Multiple of 2 and 3");
+        }
+
+        // Question 35:
+        // Check Whether Age is Child or Adult
+
+        int age2 = 16;
+
+        if (age2 >= 18) {
+            System.out.println("Adult");
+        } else {
+            System.out.println("Child");
+        }
+
+        // Question 36:
+        // Check Whether Number is Positive Multiple of 5
+
+        int num16 = 25;
+
+        if (num16 > 0 && num16 % 5 == 0) {
+            System.out.println("Positive Multiple of 5");
+        } else {
+            System.out.println("Not Positive Multiple of 5");
+        }
+
+        // Question 37:
+        // Check Whether Number is Negative Multiple of 3
+
+        int num17 = -12;
+
+        if (num17 < 0 && num17 % 3 == 0) {
+            System.out.println("Negative Multiple of 3");
+        } else {
+            System.out.println("Not Negative Multiple of 3");
+        }
+
+        // Question 38:
+        // Check Whether Character is Vowel (Uppercase)
+
+        char ch5 = 'E';
+
+        if (ch5 == 'A' || ch5 == 'E' || ch5 == 'I' || ch5 == 'O' || ch5 == 'U') {
+            System.out.println("Uppercase Vowel");
+        } else {
+            System.out.println("Not Uppercase Vowel");
+        }
+
+        // Question 39:
+        // Check Whether Number is Three Digit and Even
+
+        int num18 = 246;
+
+        if (num18 >= 100 && num18 <= 999 && num18 % 2 == 0) {
+            System.out.println("Three Digit Even Number");
+        } else {
+            System.out.println("Not Three Digit Even Number");
+        }
+
+        // Question 40:
+        // Check Whether Number is Three Digit and Odd
+
+        int num19 = 357;
+
+        if (num19 >= 100 && num19 <= 999 && num19 % 2 != 0) {
+            System.out.println("Three Digit Odd Number");
+        } else {
+            System.out.println("Not Three Digit Odd Number");
+        }
     }
 }
