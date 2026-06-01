@@ -122,350 +122,254 @@ public class Main {
 
         System.out.println("Largest = " + max);
 
+    // Question 11:
+        // Take three sides and check if they form a valid triangle.
 
-        // Question 11:
-        // Check Whether Character is Uppercase or Lowercase
+    int a1 = 5;
+    int b1 = 6;
+    int c1 = 7;
 
-        char ch1 = 'A';
+if((a1 +b1 >c1)&&(a1 +c1 >b1)&&(b1 +c1 >a1))
 
-        if (ch1 >= 'A' && ch1 <= 'Z') {
-            System.out.println("Uppercase");
-        } else {
-            System.out.println("Lowercase");
-        }
-
-        // Question 12:
-        // Check Whether Number is Three Digit or Not
-
-        int num1 = 456;
-
-        if (num1 >= 100 && num1 <= 999) {
-            System.out.println("Three Digit Number");
-        } else {
-            System.out.println("Not Three Digit");
-        }
-
-
-        // Question 13:
-        // Check Whether Number is Multiple of 7
-
-        int num2 = 21;
-
-        if (num2 % 7 == 0) {
-            System.out.println("Multiple of 7");
-        } else {
-            System.out.println("Not Multiple of 7");
-        }
-
-        // Question 14:
-        // Check Eligibility for Voting
-
-        int age = 20;
-
-        if (age >= 18) {
-            System.out.println("Eligible for Voting");
-        } else {
-            System.out.println("Not Eligible");
-        }
-
-        // Question 15:
-        // Check Whether Character is Digit or Alphabet
-
-        char ch2 = '5';
-
-        if (ch2 >= '0' && ch2 <= '9') {
-            System.out.println("Digit");
-        } else {
-            System.out.println("Alphabet");
-        }
-        // Question 16:
-        // Greater Between Two Numbers Using Ternary Operator
-
-        int m1 = 50;
-        int n1 = 80;
-
-        int greater = (m1 > n1) ? m1 : n1;
-
-        System.out.println("Greater Number = " + greater);
-
-
-        // Question 17:
-        // Smaller Between Two Numbers
-
-        int p1 = 25;
-        int q1 = 15;
-
-        if (p1 < q1) {
-            System.out.println("P is Smaller");
-        } else {
-            System.out.println("Q is Smaller");
-        }
-
-        // Question 18:
-        // Check Whether Number is Positive Even Number
-
-        int num3 = 8;
-
-        if (num3 > 0 && num3 % 2 == 0) {
-            System.out.println("Positive Even Number");
-        } else {
-            System.out.println("Not Positive Even");
-        }
-
-
-        // Question 19:
-        // Check Whether Number is Negative Odd Number
-
-        int num4 = -9;
-
-        if (num4 < 0 && num4 % 2 != 0) {
-            System.out.println("Negative Odd Number");
-        } else {
-            System.out.println("Not Negative Odd");
-        }
-
-
-        // Question 20:
-        // Check Whether Temperature is Hot or Cold
-
-        int temp = 35;
-
-        if (temp >= 30) {
-            System.out.println("Hot");
-        } else {
-            System.out.println("Cold");
-        }
-
-
-        // Question 21:
-        // Check Whether Number is Divisible by 3
-
-        int num5 = 18;
-
-        if (num5 % 3 == 0) {
-            System.out.println("Divisible by 3");
-        } else {
-            System.out.println("Not Divisible by 3");
-        }
-
-
-        // Question 22:
-        // Check Whether Number is Divisible by 9
-
-        int num6 = 27;
-
-        if (num6 % 9 == 0) {
-            System.out.println("Divisible by 9");
-        } else {
-            System.out.println("Not Divisible by 9");
-        }
-
-
-        // Question 23:
-        // Check Positive Odd Number
-
-        int num7 = 11;
-
-        if (num7 > 0 && num7 % 2 != 0) {
-            System.out.println("Positive Odd Number");
-        } else {
-            System.out.println("Not Positive Odd");
-        }
-
-
-        // Question 24:
-        // Check Special Character
-
-        char ch3 = '@';
-
-        if ((ch3 >= 'A' && ch3 <= 'Z') ||
-                (ch3 >= 'a' && ch3 <= 'z') ||
-                (ch3 >= '0' && ch3 <= '9')) {
-            System.out.println("Not Special Character");
-        } else {
-            System.out.println("Special Character");
-        }
-
-
-        // Question 25:
-        // Check Number is Zero
-
-        int num8 = 0;
-
-        if (num8 == 0) {
-            System.out.println("Number is Zero");
-        } else {
-            System.out.println("Number is Not Zero");
-        }
-
-
-        // Question 26:
-        // Check Single Digit Number
-
-        int num9 = 7;
-
-        if (num9 >= 0 && num9 <= 9) {
-            System.out.println("Single Digit Number");
-        } else {
-            System.out.println("Not Single Digit");
-        }
-
-
-        // Question 27:
-        // Check Double Digit Number
-
-        int num10 = 45;
-
-        if (num10 >= 10 && num10 <= 99) {
-            System.out.println("Double Digit Number");
-        } else {
-            System.out.println("Not Double Digit");
-        }
-
-
-        // Question 28:
-        // Pass or Fail
-
-        int marks = 35;
-
-        if (marks >= 35) {
-            System.out.println("Pass");
-        } else {
-            System.out.println("Fail");
-        }
-
-
-        // Question 29:
-        // Check Greater Than 100
-
-        int num11 = 150;
-
-        if (num11 > 100) {
-            System.out.println("Greater Than 100");
-        } else {
-            System.out.println("Not Greater Than 100");
-        }
-
-
-        // Question 30:
-        // Absolute Value
-
-        int num12 = -15;
-
-        if (num12 < 0) {
-            num12 = -num12;
-        }
-
-        System.out.println("Absolute Value = " + num12);
-
-        // Question 31:
-        // Check Whether Number is Less Than 50
-
-        int num13 = 35;
-
-        if (num13 < 50) {
-            System.out.println("Less Than 50");
-        } else {
-            System.out.println("Greater Than or Equal to 50");
-        }
-
-        // Question 32:
-        // Check Whether Number is Between 10 and 20
-
-        int num14 = 15;
-
-        if (num14 >= 10 && num14 <= 20) {
-            System.out.println("Between 10 and 20");
-        } else {
-            System.out.println("Not Between 10 and 20");
-        }
-
-        // Question 33:
-        // Check Whether Character is Lowercase
-
-        char ch4 = 'k';
-
-        if (ch4 >= 'a' && ch4 <= 'z') {
-            System.out.println("Lowercase");
-        } else {
-            System.out.println("Not Lowercase");
-        }
-
-        // Question 34:
-        // Check Whether Number is Multiple of 2 and 3
-
-        int num15 = 12;
-
-        if (num15 % 2 == 0 && num15 % 3 == 0) {
-            System.out.println("Multiple of 2 and 3");
-        } else {
-            System.out.println("Not Multiple of 2 and 3");
-        }
-
-        // Question 35:
-        // Check Whether Age is Child or Adult
-
-        int age2 = 16;
-
-        if (age2 >= 18) {
-            System.out.println("Adult");
-        } else {
-            System.out.println("Child");
-        }
-
-        // Question 36:
-        // Check Whether Number is Positive Multiple of 5
-
-        int num16 = 25;
-
-        if (num16 > 0 && num16 % 5 == 0) {
-            System.out.println("Positive Multiple of 5");
-        } else {
-            System.out.println("Not Positive Multiple of 5");
-        }
-
-        // Question 37:
-        // Check Whether Number is Negative Multiple of 3
-
-        int num17 = -12;
-
-        if (num17 < 0 && num17 % 3 == 0) {
-            System.out.println("Negative Multiple of 3");
-        } else {
-            System.out.println("Not Negative Multiple of 3");
-        }
-
-        // Question 38:
-        // Check Whether Character is Vowel (Uppercase)
-
-        char ch5 = 'E';
-
-        if (ch5 == 'A' || ch5 == 'E' || ch5 == 'I' || ch5 == 'O' || ch5 == 'U') {
-            System.out.println("Uppercase Vowel");
-        } else {
-            System.out.println("Not Uppercase Vowel");
-        }
-
-        // Question 39:
-        // Check Whether Number is Three Digit and Even
-
-        int num18 = 246;
-
-        if (num18 >= 100 && num18 <= 999 && num18 % 2 == 0) {
-            System.out.println("Three Digit Even Number");
-        } else {
-            System.out.println("Not Three Digit Even Number");
-        }
-
-        // Question 40:
-        // Check Whether Number is Three Digit and Odd
-
-        int num19 = 357;
-
-        if (num19 >= 100 && num19 <= 999 && num19 % 2 != 0) {
-            System.out.println("Three Digit Odd Number");
-        } else {
-            System.out.println("Not Three Digit Odd Number");
-        }
+    {
+        System.out.println("Valid Triangle");
     }
+else
+
+    {
+        System.out.println("Invalid Triangle");
+    }
+
+
+// Question 12:
+// If valid triangle, determine whether it is Equilateral, Isosceles, or Scalene.
+
+    int a2 = 5;
+    int b2 = 5;
+    int c2 = 5;
+
+if(a2 ==b2 &&b2 ==c2)
+
+    {
+        System.out.println("Equilateral Triangle");
+    }
+else if(a2 ==b2 ||b2 ==c2 ||a2 ==c2)
+
+    {
+        System.out.println("Isosceles Triangle");
+    }
+else
+
+    {
+        System.out.println("Scalene Triangle");
+    }
+
+
+// Question 13:
+// Take marks (0–100) and print grade (A/B/C/D/F).
+
+    int marks = 82;
+
+if(marks >=90)
+
+    {
+        System.out.println("Grade A");
+    }
+else if(marks >=80)
+
+    {
+        System.out.println("Grade B");
+    }
+else if(marks >=70)
+
+    {
+        System.out.println("Grade C");
+    }
+else if(marks >=60)
+
+    {
+        System.out.println("Grade D");
+    }
+else
+
+    {
+        System.out.println("Grade F");
+    }
+
+
+// Question 14:
+// Check if one number is a multiple of the other.
+
+    int x1 = 20;
+    int y1 = 5;
+
+if(x1 %y1 ==0||y1 %x1 ==0)
+
+    {
+        System.out.println("One is Multiple of Other");
+    }
+else
+
+    {
+        System.out.println("Not Multiple");
+    }
+
+
+// Question 15:
+// Take hour (0–23) and print greeting.
+
+    int hour = 14;
+
+if(hour >=0&&hour< 12)
+
+    {
+        System.out.println("Good Morning");
+    }
+else if(hour >=12&&hour< 17)
+
+    {
+        System.out.println("Good Afternoon");
+    }
+else if(hour >=17&&hour< 21)
+
+    {
+        System.out.println("Good Evening");
+    }
+else
+
+    {
+        System.out.println("Good Night");
+    }
+
+
+// Question 16:
+// Check voting eligibility (18+).
+
+    int age = 20;
+
+if(age >=18)
+
+    {
+        System.out.println("Eligible for Voting");
+    }
+else
+
+    {
+        System.out.println("Not Eligible for Voting");
+    }
+
+
+// Question 17:
+// Determine whether both numbers are even, both odd,
+// or one even and one odd.
+
+        int numA = 8;
+        int numB = 11;
+
+        if(numA % 2 == 0 && numB % 2 == 0)
+        {
+            System.out.println("Both Even");
+        }
+        else if(numA % 2 != 0 && numB % 2 != 0)
+        {
+            System.out.println("Both Odd");
+        }
+        else
+        {
+            System.out.println("One Even and One Odd");
+        }
+
+// Question 18:
+// Check if alphabet lies between a-m or n-z.
+
+        char ch3 = 'h';
+
+        if(ch3 >= 'a' && ch3 <= 'm')
+        {
+            System.out.println("Between a and m");
+        }
+        else if(ch3 >= 'n' && ch3 <= 'z')
+        {
+            System.out.println("Between n and z");
+        }
+        else
+        {
+            System.out.println("Invalid Character");
+        }
+
+// Question 19:
+// Take day number (1–7) and print day name.
+
+    int day = 3;
+
+if(day ==1)
+
+    {
+        System.out.println("Monday");
+    }
+else if(day ==2)
+
+    {
+        System.out.println("Tuesday");
+    }
+else if(day ==3)
+
+    {
+        System.out.println("Wednesday");
+    }
+else if(day ==4)
+
+    {
+        System.out.println("Thursday");
+    }
+else if(day ==5)
+
+    {
+        System.out.println("Friday");
+    }
+else if(day ==6)
+
+    {
+        System.out.println("Saturday");
+    }
+else if(day ==7)
+
+    {
+        System.out.println("Sunday");
+    }
+else
+
+    {
+        System.out.println("Invalid Day");
+    }
+
+
+// Question 20:
+// Take month number (1–12) and print number of days.
+
+    int month = 2;
+
+if(month ==1||month ==3||month ==5||
+    month ==7||month ==8||month ==10||month ==12)
+
+    {
+        System.out.println("31 Days");
+    }
+else if(month ==4||month ==6||
+    month ==9||month ==11)
+
+    {
+        System.out.println("30 Days");
+    }
+else if(month ==2)
+
+    {
+        System.out.println("28 Days");
+    }
+else
+
+    {
+        System.out.println("Invalid Month");
+    }
+}
 }
