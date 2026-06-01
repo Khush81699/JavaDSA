@@ -122,141 +122,93 @@ public class Main {
 
         System.out.println("Largest = " + max);
 
-    // Question 11:
+        // Question 11:
         // Take three sides and check if they form a valid triangle.
 
-    int a1 = 5;
-    int b1 = 6;
-    int c1 = 7;
+        int a1 = 5;
+        int b1 = 6;
+        int c1 = 7;
 
-if((a1 +b1 >c1)&&(a1 +c1 >b1)&&(b1 +c1 >a1))
-
-    {
-        System.out.println("Valid Triangle");
-    }
-else
-
-    {
-        System.out.println("Invalid Triangle");
-    }
+        if ((a1 + b1 > c1) && (a1 + c1 > b1) && (b1 + c1 > a1)) {
+            System.out.println("Valid Triangle");
+        } else {
+            System.out.println("Invalid Triangle");
+        }
 
 
 // Question 12:
 // If valid triangle, determine whether it is Equilateral, Isosceles, or Scalene.
 
-    int a2 = 5;
-    int b2 = 5;
-    int c2 = 5;
+        int a2 = 5;
+        int b2 = 5;
+        int c2 = 5;
 
-if(a2 ==b2 &&b2 ==c2)
-
-    {
-        System.out.println("Equilateral Triangle");
-    }
-else if(a2 ==b2 ||b2 ==c2 ||a2 ==c2)
-
-    {
-        System.out.println("Isosceles Triangle");
-    }
-else
-
-    {
-        System.out.println("Scalene Triangle");
-    }
+        if (a2 == b2 && b2 == c2) {
+            System.out.println("Equilateral Triangle");
+        } else if (a2 == b2 || b2 == c2 || a2 == c2) {
+            System.out.println("Isosceles Triangle");
+        } else {
+            System.out.println("Scalene Triangle");
+        }
 
 
 // Question 13:
 // Take marks (0–100) and print grade (A/B/C/D/F).
 
-    int marks = 82;
+        int marks = 82;
 
-if(marks >=90)
-
-    {
-        System.out.println("Grade A");
-    }
-else if(marks >=80)
-
-    {
-        System.out.println("Grade B");
-    }
-else if(marks >=70)
-
-    {
-        System.out.println("Grade C");
-    }
-else if(marks >=60)
-
-    {
-        System.out.println("Grade D");
-    }
-else
-
-    {
-        System.out.println("Grade F");
-    }
+        if (marks >= 90) {
+            System.out.println("Grade A");
+        } else if (marks >= 80) {
+            System.out.println("Grade B");
+        } else if (marks >= 70) {
+            System.out.println("Grade C");
+        } else if (marks >= 60) {
+            System.out.println("Grade D");
+        } else {
+            System.out.println("Grade F");
+        }
 
 
 // Question 14:
 // Check if one number is a multiple of the other.
 
-    int x1 = 20;
-    int y1 = 5;
+        int x1 = 20;
+        int y1 = 5;
 
-if(x1 %y1 ==0||y1 %x1 ==0)
-
-    {
-        System.out.println("One is Multiple of Other");
-    }
-else
-
-    {
-        System.out.println("Not Multiple");
-    }
+        if (x1 % y1 == 0 || y1 % x1 == 0) {
+            System.out.println("One is Multiple of Other");
+        } else {
+            System.out.println("Not Multiple");
+        }
 
 
 // Question 15:
 // Take hour (0–23) and print greeting.
 
-    int hour = 14;
+        int hour = 14;
 
-if(hour >=0&&hour< 12)
-
-    {
-        System.out.println("Good Morning");
-    }
-else if(hour >=12&&hour< 17)
-
-    {
-        System.out.println("Good Afternoon");
-    }
-else if(hour >=17&&hour< 21)
-
-    {
-        System.out.println("Good Evening");
-    }
-else
-
-    {
-        System.out.println("Good Night");
-    }
+        if (hour >= 0 && hour < 12) {
+            System.out.println("Good Morning");
+        } else if (hour >= 12 && hour < 17) {
+            System.out.println("Good Afternoon");
+        } else if (hour >= 17 && hour < 21) {
+            System.out.println("Good Evening");
+        } else {
+            System.out.println("Good Night");
+        }
 
 
 // Question 16:
 // Check voting eligibility (18+).
 
-    int age = 20;
+        int age = 20;
 
-if(age >=18)
-
-    {
-        System.out.println("Eligible for Voting");
-    }
-else
-
-    {
-        System.out.println("Not Eligible for Voting");
-    }
+        if (age >= 18) {
+            System.out.println("Eligible for Voting");
+        } else {
+            System.out.println("Not Eligible for Voting");
+        }
 
 
 // Question 17:
@@ -266,16 +218,11 @@ else
         int numA = 8;
         int numB = 11;
 
-        if(numA % 2 == 0 && numB % 2 == 0)
-        {
+        if (numA % 2 == 0 && numB % 2 == 0) {
             System.out.println("Both Even");
-        }
-        else if(numA % 2 != 0 && numB % 2 != 0)
-        {
+        } else if (numA % 2 != 0 && numB % 2 != 0) {
             System.out.println("Both Odd");
-        }
-        else
-        {
+        } else {
             System.out.println("One Even and One Odd");
         }
 
@@ -284,92 +231,126 @@ else
 
         char ch3 = 'h';
 
-        if(ch3 >= 'a' && ch3 <= 'm')
-        {
+        if (ch3 >= 'a' && ch3 <= 'm') {
             System.out.println("Between a and m");
-        }
-        else if(ch3 >= 'n' && ch3 <= 'z')
-        {
+        } else if (ch3 >= 'n' && ch3 <= 'z') {
             System.out.println("Between n and z");
-        }
-        else
-        {
+        } else {
             System.out.println("Invalid Character");
         }
 
 // Question 19:
 // Take day number (1–7) and print day name.
 
-    int day = 3;
+        int day = 3;
 
-if(day ==1)
-
-    {
-        System.out.println("Monday");
-    }
-else if(day ==2)
-
-    {
-        System.out.println("Tuesday");
-    }
-else if(day ==3)
-
-    {
-        System.out.println("Wednesday");
-    }
-else if(day ==4)
-
-    {
-        System.out.println("Thursday");
-    }
-else if(day ==5)
-
-    {
-        System.out.println("Friday");
-    }
-else if(day ==6)
-
-    {
-        System.out.println("Saturday");
-    }
-else if(day ==7)
-
-    {
-        System.out.println("Sunday");
-    }
-else
-
-    {
-        System.out.println("Invalid Day");
-    }
+        if (day == 1) {
+            System.out.println("Monday");
+        } else if (day == 2) {
+            System.out.println("Tuesday");
+        } else if (day == 3) {
+            System.out.println("Wednesday");
+        } else if (day == 4) {
+            System.out.println("Thursday");
+        } else if (day == 5) {
+            System.out.println("Friday");
+        } else if (day == 6) {
+            System.out.println("Saturday");
+        } else if (day == 7) {
+            System.out.println("Sunday");
+        } else {
+            System.out.println("Invalid Day");
+        }
 
 
 // Question 20:
 // Take month number (1–12) and print number of days.
 
-    int month = 2;
+        int month = 2;
 
-if(month ==1||month ==3||month ==5||
-    month ==7||month ==8||month ==10||month ==12)
+        if (month == 1 || month == 3 || month == 5 ||
+                month == 7 || month == 8 || month == 10 || month == 12) {
+            System.out.println("31 Days");
+        } else if (month == 4 || month == 6 ||
+                month == 9 || month == 11) {
+            System.out.println("30 Days");
+        } else if (month == 2) {
+            System.out.println("28 Days");
+        } else {
+            System.out.println("Invalid Month");
+        }
+// Question 21
+// Check Whether All Digits Are Distinct
 
-    {
-        System.out.println("31 Days");
+        int num21 = 123;
+
+        int first21 = num21 / 100;
+        int middle21 = (num21 / 10) % 10;
+        int last21 = num21 % 10;
+
+        if (first21 != middle21 && middle21 != last21 && first21 != last21) {
+            System.out.println("All Digits Are Distinct");
+        } else {
+            System.out.println("Digits Are Not Distinct");
+        }
+
+
+// Question 22
+// Middle Digit Largest, Smallest or Neither
+
+        int num22 = 582;
+
+        int first22 = num22 / 100;
+        int middle22 = (num22 / 10) % 10;
+        int last22 = num22 % 10;
+
+        if (middle22 > first22 && middle22 > last22) {
+            System.out.println("Middle Digit is Largest");
+        } else if (middle22 < first22 && middle22 < last22) {
+            System.out.println("Middle Digit is Smallest");
+        } else {
+            System.out.println("Middle Digit is Neither");
+        }
+
+
+// Question 23
+// First and Last Digit Equal
+
+        int num23 = 1221;
+
+        int first23 = num23 / 1000;
+        int last23 = num23 % 10;
+
+        if (first23 == last23) {
+            System.out.println("First and Last Digits are Equal");
+        } else {
+            System.out.println("Not Equal");
+        }
+
+
+// Question 24
+// Single, Double or Multi Digit
+
+        int num24 = 456;
+
+        if (num24 >= 0 && num24 <= 9) {
+            System.out.println("Single Digit");
+        } else if (num24 >= 10 && num24 <= 99) {
+            System.out.println("Double Digit");
+        } else {
+            System.out.println("Multi Digit");
+        }
+
+
+// Question 25
+// Multiple of 7 OR Ends with 7
+
+        int num25 = 127;
+
+        if (num25 % 7 == 0 || num25 % 10 == 7) {
+            System.out.println("Condition Satisfied");
+        } else {
+            System.out.println("Condition Not Satisfied");
+        }
     }
-else if(month ==4||month ==6||
-    month ==9||month ==11)
-
-    {
-        System.out.println("30 Days");
-    }
-else if(month ==2)
-
-    {
-        System.out.println("28 Days");
-    }
-else
-
-    {
-        System.out.println("Invalid Month");
-    }
-}
 }
