@@ -352,5 +352,172 @@ public class Main {
         } else {
             System.out.println("Condition Not Satisfied");
         }
+
+        // Question 26
+// Find Quadrant
+
+        int x26 = 5;
+        int y26 = -3;
+
+        if (x26 > 0 && y26 > 0) {
+            System.out.println("1st Quadrant");
+        } else if (x26 < 0 && y26 > 0) {
+            System.out.println("2nd Quadrant");
+        } else if (x26 < 0 && y26 < 0) {
+            System.out.println("3rd Quadrant");
+        } else if (x26 > 0 && y26 < 0) {
+            System.out.println("4th Quadrant");
+        } else {
+            System.out.println("Point on Axis");
+        }
+
+        // Question 27
+// Currency Notes Check
+
+        int amount27 = 5600;
+
+        if (amount27 % 100 == 0) {
+            System.out.println("Can be divided into 2000, 500 and 100 notes");
+        } else {
+            System.out.println("Cannot be divided");
+        }
+
+        // Question 28
+// Check Range
+
+        int num28 = 456;
+
+        if (num28 >= 100 && num28 <= 999) {
+            System.out.println("Within Range");
+        } else {
+            System.out.println("Out of Range");
+        }
+
+        // Question 29
+// Third Angle of Triangle
+
+        int angle1 = 60;
+        int angle2 = 50;
+
+        int angle3 = 180 - (angle1 + angle2);
+
+        System.out.println("Third Angle = " + angle3);
+
+    // Question 30
+// Perfect Square
+
+    int num30 = 25;
+    boolean perfect = false;
+
+for(int i = 1; i <= num30; i++)
+    {
+        if(i * i == num30)
+        {
+            perfect = true;
+            break;
+        }
+    }
+
+if(perfect)
+    {
+        System.out.println("Perfect Square");
+    }
+else
+    {
+        System.out.println("Not Perfect Square");
+    }
+// Question 31
+// Check Letter, Digit or Special Character
+
+        char ch31 = '@';
+
+        if((ch31 >= 'A' && ch31 <= 'Z') || (ch31 >= 'a' && ch31 <= 'z'))
+        {
+            System.out.println("Letter");
+        }
+        else if(ch31 >= '0' && ch31 <= '9')
+        {
+            System.out.println("Digit");
+        }
+        else
+        {
+            System.out.println("Special Character");
+        }
+
+        // Question 32
+// Print Fizz, Buzz or FizzBuzz
+
+        int num32 = 15;
+
+        if(num32 % 3 == 0 && num32 % 5 == 0)
+        {
+            System.out.println("FizzBuzz");
+        }
+        else if(num32 % 3 == 0)
+        {
+            System.out.println("Fizz");
+        }
+        else if(num32 % 5 == 0)
+        {
+            System.out.println("Buzz");
+        }
+        else
+        {
+            System.out.println("Neither Fizz nor Buzz");
+        }
+
+        // Question 33
+// Find Median Value
+
+        int a33 = 10;
+        int b33 = 20;
+        int c33 = 15;
+
+        if((a33 > b33 && a33 < c33) || (a33 < b33 && a33 > c33))
+        {
+            System.out.println("Median = " + a33);
+        }
+        else if((b33 > a33 && b33 < c33) || (b33 < a33 && b33 > c33))
+        {
+            System.out.println("Median = " + b33);
+        }
+        else
+        {
+            System.out.println("Median = " + c33);
+        }
+
+        // Question 34
+// Check AM or PM
+
+        int hour34 = 18;
+
+        if(hour34 >= 0 && hour34 < 12)
+        {
+            System.out.println("AM");
+        }
+        else if(hour34 >= 12 && hour34 <= 23)
+        {
+            System.out.println("PM");
+        }
+        else
+        {
+            System.out.println("Invalid Hour");
+        }
+
+        // Question 35
+// Check Tax Eligibility
+
+        int age35 = 25;
+        int income35 = 600000;
+
+        if(age35 >= 18 && income35 > 500000)
+        {
+            System.out.println("Eligible for Tax");
+        }
+        else
+        {
+            System.out.println("Not Eligible for Tax");
+        }
+
     }
 }
