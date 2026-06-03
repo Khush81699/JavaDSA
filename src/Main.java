@@ -519,5 +519,118 @@ else
             System.out.println("Not Eligible for Tax");
         }
 
+        // Question 36
+// Check Two Positive Numbers and Sum Less Than 100
+
+        int a36 = 30;
+        int b36 = 40;
+
+        if(a36 > 0 && b36 > 0 && (a36 + b36) < 100)
+        {
+            System.out.println("Condition Satisfied");
+        }
+        else
+        {
+            System.out.println("Condition Not Satisfied");
+        }
+        // Question 37
+// Convert Digit into Word
+
+        int digit37 = 5;
+
+        if(digit37 == 0)
+        {
+            System.out.println("Zero");
+        }
+        else if(digit37 == 1)
+        {
+            System.out.println("One");
+        }
+        else if(digit37 == 2)
+        {
+            System.out.println("Two");
+        }
+        else if(digit37 == 3)
+        {
+            System.out.println("Three");
+        }
+        else if(digit37 == 4)
+        {
+            System.out.println("Four");
+        }
+        else if(digit37 == 5)
+        {
+            System.out.println("Five");
+        }
+        else if(digit37 == 6)
+        {
+            System.out.println("Six");
+        }
+        else if(digit37 == 7)
+        {
+            System.out.println("Seven");
+        }
+        else if(digit37 == 8)
+        {
+            System.out.println("Eight");
+        }
+        else if(digit37 == 9)
+        {
+            System.out.println("Nine");
+        }
+        else
+        {
+            System.out.println("Invalid Digit");
+        }
+
+        // Question 38
+// Check Weekday or Weekend
+
+        int day38 = 6;
+
+        if(day38 == 6 || day38 == 7)
+        {
+            System.out.println("Weekend");
+        }
+        else if(day38 >= 1 && day38 <= 5)
+        {
+            System.out.println("Weekday");
+        }
+        else
+        {
+            System.out.println("Invalid Day");
+        }
+
+        // Question 39
+// Electricity Bill
+
+        int units39 = 120;
+        double bill39;
+
+        if(units39 <= 100)
+        {
+            bill39 = units39 * 5;
+        }
+        else
+        {
+            bill39 = (100 * 5) + ((units39 - 100) * 8);
+        }
+
+        System.out.println("Bill = " + bill39);
+
+        // Question 40
+// Password Validation
+
+        String password40 = "Java1234";
+
+        if(password40.length() >= 8)
+        {
+            System.out.println("Valid Password");
+        }
+        else
+        {
+            System.out.println("Invalid Password");
+        }
+
     }
 }
