@@ -632,5 +632,183 @@ else
             System.out.println("Invalid Password");
         }
 
+        // Question 41
+// Check Point Position
+
+        int x41 = 0;
+        int y41 = 5;
+
+        if(x41 == 0 && y41 == 0)
+        {
+            System.out.println("Origin");
+        }
+        else if(x41 == 0)
+        {
+            System.out.println("Y-Axis");
+        }
+        else if(y41 == 0)
+        {
+            System.out.println("X-Axis");
+        }
+        else
+        {
+            System.out.println("Normal Point");
+        }
+
+        // Question 42
+// Check Pythagorean Triplet
+
+        int a42 = 3;
+        int b42 = 4;
+        int c42 = 5;
+
+        if((a42 * a42) + (b42 * b42) == (c42 * c42))
+        {
+            System.out.println("Pythagorean Triplet");
+        }
+        else
+        {
+            System.out.println("Not Pythagorean Triplet");
+        }
+
+        // Question 43
+// Check Valid Date
+
+        int day43 = 15;
+        int month43 = 8;
+
+        if(month43 >= 1 && month43 <= 12 &&
+                day43 >= 1 && day43 <= 31)
+        {
+            System.out.println("Valid Date");
+        }
+        else
+        {
+            System.out.println("Invalid Date");
+        }
+
+        // Question 44
+// Clock Angle
+
+        int hour44 = 3;
+        int minute44 = 0;
+
+        double angle44 = Math.abs((30 * hour44) - (5.5 * minute44));
+
+        if(angle44 > 180)
+        {
+            angle44 = 360 - angle44;
+        }
+
+        System.out.println("Angle = " + angle44);
+
+        // Question 45
+// Check Arithmetic Progression
+
+        int a45 = 2;
+        int b45 = 4;
+        int c45 = 6;
+
+        if((b45 - a45) == (c45 - b45))
+        {
+            System.out.println("Arithmetic Progression");
+        }
+        else
+        {
+            System.out.println("Not Arithmetic Progression");
+        }
+
+        // Question 46
+// Check Geometric Progression
+
+        int a46 = 2;
+        int b46 = 4;
+        int c46 = 8;
+
+        if((b46 / a46) == (c46 / b46))
+        {
+            System.out.println("Geometric Progression");
+        }
+        else
+        {
+            System.out.println("Not Geometric Progression");
+        }
+
+        // Question 47
+// First + Last = Middle
+
+        int num47 = 242;
+
+        int first47 = num47 / 100;
+        int middle47 = (num47 / 10) % 10;
+        int last47 = num47 % 10;
+
+        if(first47 + last47 == middle47)
+        {
+            System.out.println("Condition True");
+        }
+        else
+        {
+            System.out.println("Condition False");
+        }
+
+        // Question 48
+// Sum > Product
+
+        int num48 = 123;
+
+        int a48 = num48 / 100;
+        int b48 = (num48 / 10) % 10;
+        int c48 = num48 % 10;
+
+        int sum48 = a48 + b48 + c48;
+        int product48 = a48 * b48 * c48;
+
+        if(sum48 > product48)
+        {
+            System.out.println("Sum Greater");
+        }
+        else
+        {
+            System.out.println("Product Greater or Equal");
+        }
+
+        // Question 49
+// Compare Dates
+
+        int day1 = 10;
+        int month1 = 5;
+
+        int day2 = 15;
+        int month2 = 5;
+
+        if(month1 < month2)
+        {
+            System.out.println("Date 1 Comes First");
+        }
+        else if(month1 > month2)
+        {
+            System.out.println("Date 2 Comes First");
+        }
+        else
+        {
+            if(day1 < day2)
+            {
+                System.out.println("Date 1 Comes First");
+            }
+            else
+            {
+                System.out.println("Date 2 Comes First");
+            }
+        }
+
+        // Question 50
+// Find Century
+
+        int year50 = 2026;
+
+        int century50 = (year50 - 1) / 100 + 1;
+
+        System.out.println("Century = " + century50);
     }
 }
