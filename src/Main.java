@@ -810,5 +810,132 @@ else
         int century50 = (year50 - 1) / 100 + 1;
 
         System.out.println("Century = " + century50);
-    }
-}
+
+                // Question 1
+                // Print Numbers from 1 to 10
+
+                for(int i = 1; i <= 10; i++)
+                {
+                    System.out.println(i);
+                }
+
+
+                // Question 2
+                // Print Numbers from 10 to 1
+
+                for(int i = 10; i >= 1; i--)
+                {
+                    System.out.println(i);
+                }
+
+
+                // Question 3
+                // Print Odd Numbers Between 1 and 100
+
+                for(int i = 1; i <= 100; i++)
+                {
+                    if(i % 2 != 0)
+                    {
+                        System.out.println(i);
+                    }
+                }
+
+
+                // Question 4
+                // Print Even Numbers Between 1 and 100
+
+                for(int i = 1; i <= 100; i++)
+                {
+                    if(i % 2 == 0)
+                    {
+                        System.out.println(i);
+                    }
+                }
+
+
+                // Question 5
+                // Multiplication Table of 5
+
+                for(int i = 1; i <= 10; i++)
+                {
+                    System.out.println("5 x " + i + " = " + (5 * i));
+                }
+
+
+                // Question 6
+                // Sum of First 10 Natural Numbers
+
+                int sum6 = 0;
+
+                for(int i = 1; i <= 10; i++)
+                {
+                    sum6 = sum6 + i;
+                }
+
+                System.out.println("Sum = " + sum6);
+
+
+                // Question 7
+                // Sum of Even Numbers up to 100
+
+                int sum7 = 0;
+
+                for(int i = 1; i <= 100; i++)
+                {
+                    if(i % 2 == 0)
+                    {
+                        sum7 = sum7 + i;
+                    }
+                }
+
+                System.out.println("Even Sum = " + sum7);
+
+
+                // Question 8
+                // Sum of Odd Numbers up to 100
+
+                int sum8 = 0;
+
+                for(int i = 1; i <= 100; i++)
+                {
+                    if(i % 2 != 0)
+                    {
+                        sum8 = sum8 + i;
+                    }
+                }
+
+                System.out.println("Odd Sum = " + sum8);
+
+
+                // Question 9
+                // Factorial of a Number
+
+                int num9 = 5;
+                int fact9 = 1;
+
+                for(int i = 1; i <= num9; i++)
+                {
+                    fact9 = fact9 * i;
+                }
+
+                System.out.println("Factorial = " + fact9);
+
+
+                // Question 10
+                // Product of Digits of a Number
+
+                int num10 = 123;
+                int product10 = 1;
+
+                while(num10 > 0)
+                {
+                    int digit = num10 % 10;
+                    product10 = product10 * digit;
+                    num10 = num10 / 10;
+                }
+
+                System.out.println("Product = " + product10);
+
+            }
+        }
+
