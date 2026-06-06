@@ -936,6 +936,201 @@ else
 
                 System.out.println("Product = " + product10);
 
+        // Question 11
+// Count Digits in a Number
+
+        int num11 = 12345;
+        int count11 = 0;
+
+        while(num11 > 0)
+        {
+            count11++;
+            num11 = num11 / 10;
+        }
+
+        System.out.println("Digits = " + count11);
+
+
+// Question 12
+// Reverse a Number
+
+        int num12 = 1234;
+        int reverse12 = 0;
+
+        while(num12 > 0)
+        {
+            int digit = num12 % 10;
+            reverse12 = reverse12 * 10 + digit;
+            num12 = num12 / 10;
+        }
+
+        System.out.println("Reverse = " + reverse12);
+
+
+// Question 13
+// Check Palindrome Number
+
+        int num13 = 121;
+        int temp13 = num13;
+        int reverse13 = 0;
+
+        while(num13 > 0)
+        {
+            int digit = num13 % 10;
+            reverse13 = reverse13 * 10 + digit;
+            num13 = num13 / 10;
+        }
+
+        if(temp13 == reverse13)
+        {
+            System.out.println("Palindrome");
+        }
+        else
+        {
+            System.out.println("Not Palindrome");
+        }
+
+
+// Question 14
+// Sum of Digits
+
+        int num14 = 1234;
+        int sum14 = 0;
+
+        while(num14 > 0)
+        {
+            int digit = num14 % 10;
+            sum14 = sum14 + digit;
+            num14 = num14 / 10;
+        }
+
+        System.out.println("Sum = " + sum14);
+
+
+// Question 15
+// Product of Digits
+
+        int num15 = 123;
+        int product15 = 1;
+
+        while(num15 > 0)
+        {
+            int digit = num15 % 10;
+            product15 = product15 * digit;
+            num15 = num15 / 10;
+        }
+
+        System.out.println("Product = " + product15);
+
+
+// Question 16
+// Check Armstrong Number (3 Digit)
+
+        int num16 = 153;
+        int temp16 = num16;
+        int sum16 = 0;
+
+        while(num16 > 0)
+        {
+            int digit = num16 % 10;
+            sum16 = sum16 + (digit * digit * digit);
+            num16 = num16 / 10;
+        }
+
+        if(temp16 == sum16)
+        {
+            System.out.println("Armstrong Number");
+        }
+        else
+        {
+            System.out.println("Not Armstrong Number");
+        }
+
+
+// Question 17
+// Print Prime Numbers from 1 to 100
+
+        for(int i = 2; i <= 100; i++)
+        {
+            boolean isPrime = true;
+
+            for(int j = 2; j < i; j++)
+            {
+                if(i % j == 0)
+                {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if(isPrime)
+            {
+                System.out.println(i);
+            }
+        }
+
+
+// Question 18
+// Check Prime Number
+
+        int num18 = 17;
+        boolean prime18 = true;
+
+        for(int i = 2; i < num18; i++)
+        {
+            if(num18 % i == 0)
+            {
+                prime18 = false;
+                break;
+            }
+        }
+
+        if(prime18)
+        {
+            System.out.println("Prime Number");
+        }
+        else
+        {
+            System.out.println("Not Prime Number");
+        }
+
+
+// Question 19
+// Fibonacci Series
+
+        int first19 = 0;
+        int second19 = 1;
+
+        System.out.println(first19);
+        System.out.println(second19);
+
+        for(int i = 1; i <= 8; i++)
+        {
+            int next = first19 + second19;
+            System.out.println(next);
+
+            first19 = second19;
+            second19 = next;
+        }
+
+
+// Question 20
+// Find HCF (GCD)
+
+        int numA20 = 24;
+        int numB20 = 36;
+        int hcf20 = 1;
+
+        for(int i = 1; i <= numA20 && i <= numB20; i++)
+        {
+            if(numA20 % i == 0 && numB20 % i == 0)
+            {
+                hcf20 = i;
+            }
+        }
+
+        System.out.println("HCF = " + hcf20);
+
             }
         }
 
