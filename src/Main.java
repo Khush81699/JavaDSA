@@ -1131,6 +1131,166 @@ else
 
         System.out.println("HCF = " + hcf20);
 
+        // Question 21
+// Print Factors of a Number
+
+        int num21Loop = 12;
+
+        for(int i = 1; i <= num21Loop; i++)
+        {
+            if(num21Loop % i == 0)
+            {
+                System.out.println(i);
             }
         }
+
+// Question 22
+// Count Factors of a Number
+        int num22Loop = 12;
+        int count22 = 0;
+
+        for(int i = 1; i <= num22Loop; i++)
+        {
+            if(num22Loop % i == 0)
+            {
+                count22++;
+            }
+        }
+
+        System.out.println("Factors Count = " + count22);
+
+
+// Question 23
+// Sum of Factors
+        int num23Loop = 12;
+        int sum23 = 0;
+
+        for(int i = 1; i <= num23Loop; i++)
+        {
+            if(num23Loop % i == 0)
+            {
+                sum23 += i;
+            }
+        }
+
+        System.out.println("Sum of Factors = " + sum23);
+
+
+// Question 24
+// Check Perfect Number
+
+        int num24Loop = 28;
+        int sum24 = 0;
+
+        for(int i = 1; i < num24Loop; i++)
+        {
+            if(num24Loop % i == 0)
+            {
+                sum24 += i;
+            }
+        }
+
+        if(sum24 == num24Loop)
+        {
+            System.out.println("Perfect Number");
+        }
+        else
+        {
+            System.out.println("Not Perfect Number");
+        }
+
+// Question 25
+// Find LCM of Two Numbers
+
+        int a25 = 12;
+        int b25 = 18;
+        int lcm25 = 0;
+
+        for(int i = 1; i <= (a25 * b25); i++)
+        {
+            if(i % a25 == 0 && i % b25 == 0)
+            {
+                lcm25 = i;
+                break;
+            }
+        }
+
+        System.out.println("LCM = " + lcm25);
+
+
+// Question 26
+// Check Strong Number
+
+        int num26 = 145;
+        int temp26 = num26;
+        int sum26 = 0;
+
+        while(temp26 > 0)
+        {
+            int digit = temp26 % 10;
+
+            int fact = 1;
+            for(int i = 1; i <= digit; i++)
+            {
+                fact = fact * i;
+            }
+
+            sum26 = sum26 + fact;
+            temp26 = temp26 / 10;
+        }
+
+        if(sum26 == num26)
+        {
+            System.out.println("Strong Number");
+        }
+        else
+        {
+            System.out.println("Not Strong Number");
+        }
+
+
+// Question 27
+// Check Automorphic Number
+
+        int num27 = 25;
+        int square27 = num27 * num27;
+
+        if(square27 % 100 == num27)
+        {
+            System.out.println("Automorphic Number");
+        }
+        else
+        {
+            System.out.println("Not Automorphic Number");
+        }
+
+
+// Question 28
+// Print Squares from 1 to 10
+
+        for(int i = 1; i <= 10; i++)
+        {
+            System.out.println(i + " Square = " + (i * i));
+        }
+
+
+// Question 29
+// Print Cubes from 1 to 10
+
+        for(int i = 1; i <= 10; i++)
+        {
+            System.out.println(i + " Cube = " + (i * i * i));
+        }
+
+
+// Question 30
+// Print Numbers Divisible by 7 from 1 to 100
+
+        for(int i = 1; i <= 100; i++) {
+            if (i % 7 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
 
